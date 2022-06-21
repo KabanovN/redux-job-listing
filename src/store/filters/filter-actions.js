@@ -12,6 +12,6 @@ export const addFilter = (filter) => ({
     payload: filter,
 });
 
-export const clearAllFilters = {
+export const clearAllFilters = () => ({
     type: CLEAR_ALL_FILTERS,
-};
+});
